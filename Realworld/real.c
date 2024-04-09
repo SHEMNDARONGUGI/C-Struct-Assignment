@@ -20,6 +20,6 @@ for(int i = 0; i < 10; i++){
 void output_specs(struct phone Phone[10])
 {
 for(int i = 0; i < 10;i++){
-    printf("\t\t\t\t(%d Phone Brand: %s\n ROM: %d\n RAM: %d \n YEAR OF MANUFACTURE: %d\n PRICE: %f\n)",i+1, Phone[i].brand, Phone[i].ROM,Phone[i].RAM,Phone[i].YEAR_OF_MANUFACTURE,Phone[i].price);
+    printf("%d Phone Brand: %s\n ROM: %d\n RAM: %d \n YEAR OF MANUFACTURE: %d\n PRICE: %f\n",i+1, Phone[i].brand, Phone[i].ROM,Phone[i].RAM,Phone[i].YEAR_OF_MANUFACTURE,Phone[i].price);
     }
 }
