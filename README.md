@@ -1,1 +1,1 @@
-ONLY *.c , *.h and makefile have text in them
+ONLY *.c , *.h and makefile HAVE TEXT/CODE IN THEM
